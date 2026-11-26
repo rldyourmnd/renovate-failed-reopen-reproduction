@@ -1,1 +1,11 @@
-{}
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": false,
+  "enabledManagers": ["github-actions"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["actions/checkout"],
+      "allowedVersions": "<=4.2.1"
+    }
+  ]
+}
