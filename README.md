@@ -36,6 +36,18 @@ docker run --rm -e RENOVATE_TOKEN -e LOG_LEVEL=debug ghcr.io/renovatebot/renovat
   rldyourmnd/renovate-failed-reopen-reproduction
 ```
 
+## With the proposed fix
+
+Running Renovate from the fix branch on this repository (state after step 4) gives:
+
+```
+06:00:20 push       renovate/actions-checkout-4.x 9e158f8 -> 4a2b166   (fresh v4.2.2 commit)
+06:00:21 force_push renovate/actions-checkout-4.x 4a2b166 -> 9e158f8   (reset for the reuse attempt)
+06:00:24 push       renovate/actions-checkout-4.x 9e158f8 -> 4a2b166   (reopen failed, fresh commit restored)
+```
+
+and PR #2 for v4.2.2 is created.
+
 ## Link to the Renovate issue or Discussion
 
 To be added.
