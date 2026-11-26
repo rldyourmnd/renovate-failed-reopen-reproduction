@@ -1,4 +1,4 @@
-# Renovate leaves the branch at an autoclosed PR's old head when the reopen fails
+# Renovate discussion 48400: branch left at an autoclosed PR's old head when the reopen fails
 
 Reproduced with the self-hosted Renovate CLI `44.263.5` on GitHub.com.
 
@@ -50,4 +50,4 @@ and PR #2 for v4.2.2 is created.
 
 ## Link to the Renovate issue or Discussion
 
-To be added.
+https://github.com/renovatebot/renovate/discussions/48400 (fix: https://github.com/renovatebot/renovate/pull/48401)
